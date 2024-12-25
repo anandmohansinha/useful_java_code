@@ -1,0 +1,28 @@
+Callable is not directly supported by the Thread class,
+ you need to wrap the Callable inside a Runnable (since Thread accepts only Runnable).
+
+Q. How would you use Callable for a long-running background task in a distributed system?
+Answer:
+    For long-running background tasks:
+    Use Callable to encapsulate the task logic.
+    Submit the task to an ExecutorService for asynchronous execution.
+    Store the Future object in a distributed cache (e.g., Redis) or database to track the task state and results.
+    Use polling or a callback mechanism to notify the client when the task is complete.
+
+Q. How would you design a system where multiple Callable tasks run concurrently, and you collect their results?
+ ExecutorService executor = Executors.newFixedThreadPool(3);
+
+ List<Callable<Integer>> tasks = Arrays.asList(
+     () -> 1 + 1, # task1
+     () -> 2 * 2, # task2
+     () -> 3 * 3  # task3
+ );
+
+ // Submit all tasks and collect results
+ List<Future<Integer>> results = executor.invokeAll(tasks);
+
+ for (Future<Integer> future : results) {
+     System.out.println(future.get());
+ }
+
+ executor.shutdown();

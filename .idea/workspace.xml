@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21315b21-1583-433c-ae14-830a2a2ecc91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/org/java/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/org/java/example/parallelstream/FindPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/test/java/org/java/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/countdownlatch/CountdownlatchesEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/create/CallableThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/create/callable_note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/semaphore/PublicBathroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/semaphore/SemaphoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/synchronization/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/synchronization/BankCustomers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/synchronization/BasicSynchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/synchronization/OddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/synchronization/TrafficSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/org/java/example/threadlocal/TablePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/src/test/java/org/java/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/java/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/java/example/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qPtHYFF5jUor7Wm84wZG2wiX5L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App (1).executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.BankCustomers.executor": "Run",
+    "Application.CallableThread.executor": "Run",
+    "Application.CountdownlatchesEx.executor": "Run",
+    "Application.FindPrimeNumber.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.SemaphoreExample.executor": "Run",
+    "Application.TablePrint.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TrafficSignal.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="CallableThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.java.example.create.CallableThread" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.java.example.create.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountdownlatchesEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.java.example.countdownlatch.CountdownlatchesEx" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.java.example.countdownlatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindPrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.java.example.parallelstream.FindPrimeNumber" />
+      <module name="Stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.java.example.parallelstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TablePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.java.example.threadlocal.TablePrint" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.java.example.threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.java.example.create.Test" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.java.example.create.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TablePrint" />
+        <item itemvalue="Application.CallableThread" />
+        <item itemvalue="Application.FindPrimeNumber" />
+        <item itemvalue="Application.CountdownlatchesEx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21315b21-1583-433c-ae14-830a2a2ecc91" name="Changes" comment="" />
+      <created>1734575954760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734575954760</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Threads/src/main/java/org/java/example/synchronization/TrafficSignal.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
